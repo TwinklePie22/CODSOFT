@@ -1,0 +1,148 @@
+Sahil - I'm a Full Stack Developer and UI Designer
+
+This is a personal portfolio html template made by Sahil Bhasin"
+
+
+#---------- HEADER ----------#
+
+alt = Sahil home
+
+aria-label = close menu
+<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+
+Home
+About
+Projects
+Contact
+Resume
+
+sbhasin122@email.com
+
+<ion-icon name="logo-linkedin"></ion-icon>
+<ion-icon name="logo-github"></ion-icon>
+<ion-icon name="logo-dribbble"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>
+
+aria-label = open menu
+<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+
+
+#---------- MAIN ----------#
+
+alt = Sahil
+
+👋 I'm Sahil Bhasin, Full Stack Developer and a User Interface Designer 💻
+
+I'm a passionate and experienced Full Stack Developer and User Interface Designer with a strong foundation in both front-end and back-end technologies and also in UI UX designing technologies. 
+
+See My Works
+Contact Me
+
+
+#---------- ABOUT ----------#
+
+What I Do?
+
+I thrive on crafting web applications that not only look great but also deliver exceptional user experiences. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.
+
+Web Design
+100 %
+bg-color = #c7b1dd
+
+App Design
+80 %
+bg-color = #8caeec
+
+Development
+85 %
+bg-color = #b0d4c1
+
+DSA
+70 %
+bg-color = #adb5bd
+
+alt = web design icon
+Web Design
+With every pixel meticulously placed, my path as a web designer has been a continuous exploration of user experience, responsive design, and the ever-evolving landscape of the digital world.
+
+alt = app design icon
+App Design
+From wireframes to pixel-perfect UI designs, my path as a mobile app designer has been a continuous quest to transform ideas into visually captivating and user-friendly mobile applications.
+
+alt = web development icon
+Development
+My journey as a developer has been a dynamic adventure, from learning languages to solving complex problems through code. I'm excited for the constant growth and innovation in tech.
+
+alt = web dsa icon
+DSA
+For a Data Structures and Algorithms enthusiast like me, Lorem Ipsum embodies the structured beauty of algorithms, awaiting data much as algorithms seek input to unleash their power. 💻🔍
+
+#---------- PROJECT ----------#
+
+Latest Projects
+
+Check out some of my latest projects with creative ideas.
+
+See All Projects
+
+bg-color - #f8f5fb
+color - #a07cc5
+Web Design
+Shopping Website
+
+With the revolutionary design of Azorte, we revitalized the world of online fashion, creating a visually arresting and functional platform that enhances the shopping experience for fashionista all over the world.
+
+See Project
+<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+alt = Web Design
+
+bg-color - #f1f5fd
+color - #3f78e0
+App Design
+Budget App
+
+alt = App Design
+
+bg-color - #f5faf7
+color - #7cb798
+Web Design
+Email Template
+Excited to unveil our sleek and professionally designed email template, tailored for the modern real estate industry. Stay connected with clients and prospects in style, making every property update a visually stunning experience. 🏡📬 #RealEstateEmails
+alt = Web Design
+
+bg-color - #fcf4f6
+color - #d16b86
+App Design
+Bakery App Signup Flow
+Introducing our new bakery app signup flow—where simplicity meets deliciousness! Join us effortlessly, savor the experience, and indulge in sweet moments. 🍰📲 #BakeryAppSignUp
+
+alt = App Design
+
+
+#---------- CONTACT ----------#
+
+alt = envelop icon
+
+If you like what you see, let's work together.
+
+I offer swift solutions to simplify my clients' lives. Need assistance? Contact me via this form, and I'll promptly respond to your inquiries.
+
+Name *
+
+Email *
+
+Message *
+
+Send message
+
+
+
+#---------- FOOTER ----------#
+
+© 2022 sahilbhasin. All rights reserved.
+
+<ion-icon name="logo-linkedin"></ion-icon>
+<ion-icon name="logo-github"></ion-icon>
+<ion-icon name="logo-dribbble"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>

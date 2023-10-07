@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sahil - I'm a Full Stack Developer and UI Designer</title>
+  <meta name="title" content="I'm Sahil Bhasin, a Full Stack Developer and UI Designer">
+  <meta name="description" content="This is a personal portfolio html template made by Sahil Bhasin">
+
+
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+  <link rel="preload" as="image" href="assets/images/main-banner.jpg">
+  <link rel="preload" as="image" href="assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="assets/images/logo-dark.svg" width="64" height="24" alt="Sahil home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="assets/images/logo-light.svg" width="64" height="24" alt="Sahil home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#contact-me" class="navbar-link">Contact Me</a>
+          </li>
+
+          <li>
+            <a href="assets/Sahil-Resume.pdf" target="_blank" class="navbar-link">Resume</a>
+          </li>
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:sbhasin1122@email.com" class="contact-link">sbhasin1122@email.com</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/sahil-bhasin22/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/TwinklePie22/" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://dribbble.com/Sahil_Bhasin/" target="_blank" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/sahilbhasin._/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <section class="section main" aria-label="home">
+        <div id="home" class="container">
+
+          <figure class="main-banner">
+            <img src="assets/images/main-banner.jpg" width="560" height="540" alt="Sahil" class="w-100"
+              data-reveal="top">
+
+          </figure>
+
+          <div class="main-content">
+
+            <h3 class="h1 main-title" data-reveal="top" data-reveal-delay="0.25s">
+              👋 I'm Sahil Bhasin, Full Stack Developer and a User Interface Designer 💻
+            </h3>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.40s">
+              I'm a passionate and experienced Full Stack Developer and User Interface Designer with a strong foundation
+              in both front-end and back-end technologies and also in UI UX designing technologies. <br><br>
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="0.90s">
+              <a href="#projects" class="btn btn-primary">See My Works</a>
+
+              <a href="#contact-me" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h3 id="about"></h3>
+      <section class="section about" aria-label="about">
+        <div class="container">
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h3 class="h2 section-title">What I Do?</h3>
+
+              <p class="section-text">
+                I thrive on crafting web applications that not only look great but also deliver exceptional user
+                experiences. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution
+                and achieve great things.
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Web Design</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>App Design</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Development</p>
+
+                  <span class="span">85 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>DSA</p>
+
+                  <span class="span">70 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 70%; background-color: #adb5bd"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Web Design</h3>
+
+                <p class="card-text">
+                  With every pixel meticulously placed, my path as a web designer has been a continuous exploration of
+                  user experience, responsive design, and the ever-evolving landscape of the digital world.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">App Design</h3>
+
+                <p class="card-text">
+                  From wireframes to pixel-perfect UI designs, my path as a mobile app designer has been a continuous
+                  quest to transform ideas into visually captivating and user-friendly mobile applications.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="assets/images/icon-3.svg" width="52" height="52" loading="lazy" alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Development</h3>
+
+                <p class="card-text">
+                  My journey as a developer has been a dynamic adventure, from learning languages to solving complex
+                  problems through code. I'm excited for the constant growth and innovation in tech.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">DSA</h3>
+
+                <p class="card-text">
+                  For a Data Structures and Algorithms enthusiast like me, Lorem Ipsum embodies the structured beauty of
+                  algorithms, awaiting data much as algorithms seek input to unleash their power. 💻🔍
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      <h3 id="projects"></h3>
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="#" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Web Design</p>
+
+                  <h3 class="h3 card-title">Shopping Website</h3>
+
+                  <p class="card-text">
+                    With the revolutionary design of Azorte, we revitalized the world of online fashion, creating a
+                    visually arresting and functional platform that enhances the shopping experience for fashionistas
+                    all over the world.
+                  </p>
+
+                  <a href="https://dribbble.com/shots/22739969-Fashion-Website-Azorte?utm_source=Clipboard_Shot&utm_campaign=Sahil_Bhasin&utm_content=Fashion%20Website%20%40Azorte&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Sahil_Bhasin&utm_content=Fashion%20Website%20%40Azorte&utm_medium=Social_Share"
+                    target="_blank" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-1.png" loading="lazy" alt="Web Design" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Web Design</p>
+
+                  <h3 class="h3 card-title">Beats Headset Landing Page</h3>
+
+                  <p class="card-text">
+                    With a laser focus on user experience and brand integrity, our project delivered a visually striking
+                    and functionally seamless landing page for Beats headsets.
+                  </p>
+
+                  <a href="https://dribbble.com/shots/22767003-Landing-Page-for-Beats-Headsets?new_shot_upload=true&utm_source=Clipboard_Shot&utm_campaign=Sahil_Bhasin&utm_content=Landing%20Page%20for%20Beats%20Headsets&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Sahil_Bhasin&utm_content=Landing%20Page%20for%20Beats%20Headsets&utm_medium=Social_Share"
+                    target="_blank" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="assets/images/project-2.jpg"  loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Web Design</p>
+
+                  <h3 class="h3 card-title">Email Template</h3>
+
+                  <p class="card-text">
+                    Excited to unveil our sleek and professionally designed email template, tailored for the modern real
+                    estate industry. Stay connected with clients and prospects in style, making every property update a
+                    visually stunning experience. 🏡📬 #RealEstateEmails
+                  </p>
+
+                  <a href="https://dribbble.com/shots/22737722-Email-Template-for-a-Real-Estate-Business?utm_source=Clipboard_Shot&utm_campaign=Sahil_Bhasin&utm_content=Email%20Template%20for%20a%20Real%20Estate%20Business&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Sahil_Bhasin&utm_content=Email%20Template%20for%20a%20Real%20Estate%20Business&utm_medium=Social_Share"
+                    target="_blank" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="assets/images/project-3.png" loading="lazy" alt="Web Design" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #e9ecef">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Mobile Design</p>
+
+                  <h3 class="h3 card-title">Bakery App Signup Flow</h3>
+
+                  <p class="card-text">
+                    Introducing our new bakery app signup flow—where simplicity meets deliciousness! Join us
+                    effortlessly, savor the experience, and indulge in sweet moments. 🍰📲 #BakeryAppSignUp
+                  </p>
+
+                  <a href="https://dribbble.com/shots/22718673-Signup-Flow-of-Bakery?utm_source=Clipboard_Shot&utm_campaign=Sahil_Bhasin&utm_content=Signup%20Flow%20of%20Bakery&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Sahil_Bhasin&utm_content=Signup%20Flow%20of%20Bakery&utm_medium=Social_Share"
+                    target="_blank" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="assets/images/project-4.png" loading="lazy" alt="Mobile Design" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div id="contact-me" class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                I offer swift solutions to simplify my clients' lives. Need assistance? Contact me via this form, and
+                I'll promptly respond to your inquiries.
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2023 sahilbhasin. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.linkedin.com/in/sahil-bhasin22/" target="_blank" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/TwinklePie22/" target="_blank" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://dribbble.com/Sahil_Bhasin/" target="_blank" class="social-link">
+            <ion-icon name="logo-dribbble"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/sahilbhasin._/" target="_blank" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.473/build/spline-viewer.js"></script>
+
+</body>
+
+</html>
